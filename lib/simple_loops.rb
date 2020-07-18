@@ -29,8 +29,9 @@ end
 def return_string_array(arr)
   # arr.map {|i| i.to_s }
   i = 0
+  new_arr = []
   while i < arr.length
-    puts arr[i]
+   new_arr << arr[i].to_s
     i+=1
   end
 end
