@@ -34,4 +34,5 @@ def return_string_array(arr)
    new_arr << arr[i].to_s
     i+=1
   end
+  new_arr
 end
