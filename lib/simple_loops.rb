@@ -23,7 +23,10 @@ def loop_message_n_times(message, n)
 end
 
 def output_array(array)
-  puts array
+ while i < arr.length
+   puts arr[i]
+    i+=1
+  end
 end
 
 def return_string_array(arr)
